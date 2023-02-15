@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="flex items-center flex-col gap-10">
       <h1 className="text-3xl font-bold text-neutral-100 "> Ethan Lang Nicholas</h1>
-      <div className="flex gap-10">
+      <div className="flex flex-col gap-10">
         <Image
           src={imageCartoonised}
           alt="my photo"

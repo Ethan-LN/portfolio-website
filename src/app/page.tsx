@@ -1,7 +1,7 @@
 import { Inter } from "@next/font/google";
 import styles from "./page.module.css";
 import "./globals.css";
-import imageCartoonised from "../Resouce/personal-catoonized-no-bg.png";
+import imageCartoonised from "../Resouce/personal-bg-cyan-square.jpeg";
 import imageEcom from "../Resouce/E-commerce.png";
 import imageInsta from "../Resouce/instagram-clone.png";
 import imageTodo from "../Resouce/to-do-list.png";
@@ -26,9 +26,9 @@ export default function Home() {
         </div>
         <div className="flex items-center flex-col md:mt-40 max-w-[700px]">
           <h2 className="text-xl font-bold text-neutral-100">About Me</h2>
-          <p className="text-gray-400 p-10 ">
+          <p className="text-neutral-100 p-10 ">
             I&apos;m a junior web/software developer who&apos;s passionate about building
-            engaging and user-friendly websites. I&apos;ve recently completed my
+            engaging and user-friendly web and soft apps. I&apos;ve recently completed my
             Computational Science Degree and bootcamp program in web development
             and I&apos;m excited to start my career in this exciting field. I have
             experience in React, tailwind css, node.js, python etc. and I&apos;m

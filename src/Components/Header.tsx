@@ -11,7 +11,7 @@ type Props = {};
 export default function header({}: Props) {
   return (
     // header div
-    <div className="flex justify-between p-5">
+    <div className="flex justify-between px-5">
       <div className="flex">
         {/* left header div */}
         <Image src={logoWhite} alt="my logo" className="w-[90px]" />
@@ -32,7 +32,7 @@ export default function header({}: Props) {
       </div>
       <div className="pt-7">
         {/* right header div  */}
-        <LightMode sx={{ color: "#fafafa", fontSize: 30 }} className="text-md hover:text-[35px] hover:text-red-400" />
+        <LightMode sx={{ color: "#fafafa", fontSize: 30 }} className="text-md hover:text-[35px] hover:text-orange-200" />
       </div>
     </div>
   );

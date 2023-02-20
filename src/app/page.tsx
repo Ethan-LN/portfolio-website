@@ -1,17 +1,19 @@
 import { Inter } from "@next/font/google";
 import styles from "./page.module.css";
 import "./globals.css";
-import imageCartoonised from "../Resouce/personal-bg-cyan-square.jpeg";
+import imageCartoonised from "../Resouce/personal-catoonized-no-bg.png";
 import imageEcom from "../Resouce/E-commerce.png";
 import imageInsta from "../Resouce/instagram-clone.png";
 import imageTodo from "../Resouce/to-do-list.png";
 import Image from "next/image";
 import Header from "@/Components/Header";
+import Intro from "@/Components/Intro";
 
 export default function Home() {
   return (
     <main>
       <Header />
+      <Intro />
       <div className="flex gap-10 flex-col md:flex-row justify-center">
         <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
           <h1 className="text-3xl font-bold text-neutral-100 mt-20 text-center">
@@ -21,7 +23,7 @@ export default function Home() {
             <Image
               src={imageCartoonised}
               alt="my photo"
-              className=" relative w-60 h-60 bg-neutral-100 rounded-full object-contain "
+              className=" relative w-60 h-60 bg-pink-200 rounded-full object-contain "
               // md:rounded-3xl md:w-[300px] md:h-[400px] md:bg-transparent
             />
           </div>

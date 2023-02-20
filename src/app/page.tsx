@@ -6,10 +6,12 @@ import imageEcom from "../Resouce/E-commerce.png";
 import imageInsta from "../Resouce/instagram-clone.png";
 import imageTodo from "../Resouce/to-do-list.png";
 import Image from "next/image";
+import Header from "@/Components/Header";
 
 export default function Home() {
   return (
     <main>
+      <Header />
       <div className="flex gap-10 flex-col md:flex-row justify-center">
         <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
           <h1 className="text-3xl font-bold text-neutral-100 mt-20 text-center">

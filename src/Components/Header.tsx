@@ -32,7 +32,7 @@ export default function header({}: Props) {
       </div>
       <div className="pt-7">
         {/* right header div  */}
-        <LightMode sx={{ color: "#fafafa", fontSize: 30 }} className="text-md hover:text-[35px] hover:text-orange-200" />
+        <LightMode sx={{ color: "#B1B1B1", fontSize: 30 }} className="text-md hover:text-neutral-100 hover:cursor-pointer" />
       </div>
     </div>
   );

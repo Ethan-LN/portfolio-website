@@ -23,7 +23,7 @@ export default function Intro({}: Props) {
       <Image
         src={imageCartoonised}
         alt="my photo"
-        className="w-40 h-40 bg-pink-100 rounded-full object-cover items-center mt-[150px]"
+        className="w-40 h-40 bg-pink-100 rounded-full object-cover items-center mt-[280px]"
       />
       <div>
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] mt-[30px]">
@@ -41,7 +41,7 @@ export default function Intro({}: Props) {
           </div>
         </div>
       </div>
-      <div className="flex justify-around mt-[100px] gap-5">
+      <div className="flex justify-around mt-[100px] gap-2">
         <button className="categoryButton z-0">About</button>
         <button className="categoryButton z-0">Experience</button>
         <button className="categoryButton z-0">Skills</button>

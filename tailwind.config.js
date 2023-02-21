@@ -10,7 +10,13 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        bodoni: ["Bodoni Moda", "serif"],
+        roboto: ["Roboto", "sans-serif"],
+        robotoSlab: ['Roboto Slab', 'serif'],
+       },
+    },
   },
   plugins: [],
 }

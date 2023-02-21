@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import imageCartoonised from "../Resouce/personal-catoonized-no-bg.png";
 import Image from "next/image";
@@ -14,8 +14,8 @@ export default function Intro({}: Props) {
       "✨ GuyWhoLoveRunningAndHiking.jsx ",
       "✨ But_Loves_To_Codes_More.py",
     ],
-    loop:true,
-    delaySpeed:2000,
+    loop: true,
+    delaySpeed: 2000,
   });
 
   return (
@@ -31,16 +31,21 @@ export default function Intro({}: Props) {
         </h2>
         <div className="relative mt-[80px]">
           <div className="relative flex items-center justify-center">
-            <h1 className="absolute flex flex-1 text-center text-white text-xl font-roboto bg-slate-900 border-rounded-md z-10">
-            <span >{text}
-            </span>
-            <Cursor cursorColor="#f0abfc" />
+            <h1 className="absolute flex flex-1 text-center text-sky-100 text-xl font-roboto bg-slate-900 border-rounded-md z-10">
+              <span>{text}</span>
+              <Cursor cursorColor="#f0abfc" />
             </h1>
             <h1 className="absolute text-center text-gray-500 text-8xl font-bodoni uppercase z-9">
               E L N
             </h1>
           </div>
         </div>
+      </div>
+      <div className="flex justify-around mt-[100px] gap-5">
+        <button className="categoryButton z-0">About</button>
+        <button className="categoryButton z-0">Experience</button>
+        <button className="categoryButton z-0">Skills</button>
+        <button className="categoryButton z-0">Project</button>
       </div>
     </div>
   );

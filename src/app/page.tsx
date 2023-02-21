@@ -8,15 +8,20 @@ import imageTodo from "../Resouce/to-do-list.png";
 import Image from "next/image";
 import Header from "@/Components/Header";
 import Intro from "@/Components/Intro";
+import BackgroundCircles from "@/Components/BackgroundCircles";
 
 export default function Home() {
   return (
     <main>
       <section className="snap-center">
         <Header />
-        <Intro />
+        <BackgroundCircles />
       </section>
       <section className="snap-center">
+      {/* <div className="relative flex items-center justify-center">
+          <h1 className="absolute flex flex-1 text-center text-white text-lg bg-slate-900 border-rounded-md z-10">           Hi, my name is Ethan           </h1>
+          <h1 className="absolute text-center text-gray-500 text-8xl font-bodoni uppercase z-0">E L N</h1>
+        </div> */}
         <div className="flex gap-10 flex-col md:flex-row justify-center">
           <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
             <h1 className="text-3xl font-bold text-neutral-100 mt-20 text-center">
@@ -35,17 +40,16 @@ export default function Home() {
             <h2 className="text-xl font-bold text-neutral-100">About Me</h2>
             <p className="text-neutral-100 p-10 ">
               I&apos;m a junior web/software developer who&apos;s passionate
-              about building engaging and user-friendly web and soft apps.
+              about building engaging and user-friendly web apps and softwares.
               I&apos;ve recently completed my Computational Science Degree and
               bootcamp program in web development and I&apos;m excited to start
-              my career in this exciting field. I have experience in React,
+              my career in this field. I have experience in React,
               tailwind css, node.js, python etc. and I&apos;m eager to learn
               more and expand my skillset. I&apos;m familiar with web
               development best practices. I&apos;m always looking for
-              opportunities to learn and grow, and I&apos;m eager to work with
-              more experienced developers who can help me improve my skills.
+              opportunities to learn and grow.
             </p>
-            <p className="text-gray-100">---------------------------------</p>
+            <div className="border border-fuchsia-300 w-[80%]"/>
           </div>
         </div>
       </section>
@@ -69,7 +73,7 @@ export default function Home() {
           <p className="text-gray-400 p-10 ">
             This is a instagrame clone with firebase auth and storage.
           </p>
-          <p className="text-gray-100">---------------------------------</p>
+          <div className="border border-fuchsia-300 w-[80%]"/>
         </div>
       </div>
       </section>
@@ -93,7 +97,7 @@ export default function Home() {
           <p className="text-gray-400 p-10 ">
             This is a front-end design for e-commerce website.
           </p>
-          <p className="text-gray-100">---------------------------------</p>
+          <div className="border border-fuchsia-300 w-[80%]"/>
         </div>
       </div>
       </section>
@@ -118,7 +122,7 @@ export default function Home() {
             This is to do list with dynamic validation and fetch image with
             relevent word.
           </p>
-          <p className="text-gray-100">---------------------------------</p>
+          <div className="border border-fuchsia-300 w-[80%]"/>
         </div>
       </div>
       </section>

@@ -4,6 +4,7 @@ import imageCartoonised from "../Resouce/personal-catoonized-no-bg.png";
 import Image from "next/image";
 import { Cursor } from "react-simple-typewriter";
 import { useTypewriter } from "react-simple-typewriter";
+import Link from "next/link";
 
 type Props = {};
 
@@ -41,11 +42,16 @@ export default function Intro({}: Props) {
           </div>
         </div>
       </div>
-      <div className="flex justify-around mt-[100px] gap-2">
-        <button className="categoryButton z-0">About</button>
-        <button className="categoryButton z-0">Experience</button>
-        <button className="categoryButton z-0">Skills</button>
-        <button className="categoryButton z-0">Project</button>
+      <div className="flex mt-[100px] gap-4">
+        <Link href="#about" className="relative">
+          <button className="categoryButton z-20">About</button>
+        </Link>
+        <Link href="#skills" className="relative">
+          <button className="categoryButton z-20">Skills</button>
+        </Link>
+        <Link href="#projects" className="relative">
+          <button className="categoryButton z-20">Projects</button>
+        </Link>
       </div>
     </div>
   );

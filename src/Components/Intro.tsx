@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import imageCartoonised from "../Resouce/personal-catoonized-no-bg.png";
+import imageCartoonised from "../Resouce/personal-bg-potrait.jpeg";
 import Image from "next/image";
 import { Cursor } from "react-simple-typewriter";
 import { useTypewriter } from "react-simple-typewriter";
@@ -24,7 +24,7 @@ export default function Intro({}: Props) {
       <Image
         src={imageCartoonised}
         alt="my photo"
-        className="w-40 h-40 bg-pink-100 rounded-full object-cover items-center mt-[280px]"
+        className="w-[120px] h-[120px] bg-pink-100 rounded-full object-cover items-center mt-[280px]"
       />
       <div>
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] mt-[30px]">

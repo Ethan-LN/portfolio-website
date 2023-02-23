@@ -8,18 +8,19 @@ import Projects from "@/Components/Projects";
 export default function Home() {
   return (
     <main>
-      <section className="snap-center">
+      <section className="snap-start">
         <Header />
+        <h1 className="text-white">test--19</h1>
         <BackgroundCircles />
       </section>
-      <section id="about" className="snap-start">
+      <section className="snap-center">
         <AboutMe />
       </section>
-      <section id="skills" className="snap-center h-screen">
+      <section className="h-screen">
         Skill Section
         <Skills />
       </section>
-      <section id="projects" className="snap-center">
+      <section  className="">
         <Projects />
       </section>
     </main>

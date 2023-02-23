@@ -9,7 +9,7 @@ type Props = {};
 function Projects({}: Props) {
   return (
     <div>
-      <section className="snap-center">
+      <section className="">
         {/* Instagram */}
         <div className="flex gap-10 flex-col md:flex-row justify-center">
           <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
@@ -33,7 +33,7 @@ function Projects({}: Props) {
           </div>
         </div>
       </section>
-      <section className="snap-center">
+      <section className="">
         {/*E-commerce  */}
         <div className="flex gap-10 flex-col md:flex-row justify-center">
           <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
@@ -58,7 +58,7 @@ function Projects({}: Props) {
         </div>
       </section>
       {/* Todo list */}
-      <section className="snap-center">
+      <section className="">
         <div className="flex gap-10 flex-col md:flex-row justify-center">
           <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
             <h1 className="text-3xl font-bold text-neutral-100 mt-20 text-center">

@@ -19,7 +19,7 @@ export default function Home() {
         Skill Section
         <Skills />
       </section>
-      <section  className="">
+      <section className="">
         <Projects />
       </section>
     </main>

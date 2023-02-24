@@ -8,8 +8,8 @@ type Props = {};
 
 function AboutMe({}: Props) {
   return (
-    <div className="relative h-screen flex gap-10 flex-col md:flex-row justify-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+    <div className="relative h-screen flex gap-10 flex-col md:flex-row md:flex-left text-center justify-center pt-20">
+      <h3 className="container absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
       <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
@@ -37,7 +37,7 @@ function AboutMe({}: Props) {
           I&apos;m familiar with web development best practices. I&apos;m always
           looking for opportunities to learn and grow.
         </p>
-        <h1 className="text-white">test--22</h1>
+        <h1 className="text-white">test--42</h1>
         <div className="border border-fuchsia-300 w-[80%]" />
       </div>
     </div>

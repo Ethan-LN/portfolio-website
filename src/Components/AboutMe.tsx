@@ -12,8 +12,8 @@ function AboutMe({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">About</h3>
       <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
         <div className="flex flex-col gap-10">
-         <Image
-            src={imageGitHub}
+         <motion.img
+            src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fbumblebee.png?alt=media&token=163fd0e3-ddfd-493f-b2ab-6fe63c7da56c"
             // "https://images.unsplash.com/photo-1519861531473-9200262188bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
             alt="my gihub photo"
             className=" w-60 h-60 bg-pink-200 rounded-full object-contain "
@@ -31,6 +31,7 @@ function AboutMe({}: Props) {
           I&apos;m familiar with web development best practices. I&apos;m always
           looking for opportunities to learn and grow.
         </p>
+        <h1 className="text-white">test--20</h1>
         <div className="border border-fuchsia-300 w-[80%]" />
       </div>
     </div>

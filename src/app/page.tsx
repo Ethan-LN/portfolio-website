@@ -10,7 +10,6 @@ export default function Home() {
     <main>
       <section className="snap-start">
         <Header />
-        <h1 className="text-white">test--19</h1>
         <BackgroundCircles />
       </section>
       <section className="snap-center">

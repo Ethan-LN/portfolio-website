@@ -8,8 +8,8 @@ import Projects from "@/Components/Projects";
 export default function Home() {
   return (
     <main>
-      <section className="snap-start h-screen">
-        <Header />
+      <Header />
+      <section className="snap-start h-screen">       
         <BackgroundCircles />
       </section>
       <section className="snap-center">

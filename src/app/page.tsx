@@ -9,19 +9,17 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <section className="snap-start h-screen">       
+      <section className="snap-start h-screen">
         <BackgroundCircles />
       </section>
-      <section className="snap-center">
+      <section className="snap-center h-screen">
         <AboutMe />
       </section>
-      <section className="h-screen">
+      <section className="h-screen snap-center">
         Skill Section
         <Skills />
       </section>
-      <section className="">
-        <Projects />
-      </section>
+      <section className="h-screen">{/* <Projects /> */}</section>
     </main>
   );
 }

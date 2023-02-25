@@ -13,7 +13,7 @@ export default function header({}: Props) {
   return (
     // header div
     <header className="sticky top-0 z-30">
-      <div className="container flex justify-between px-5 w-full">
+      <div className="container flex justify-between w-[100%] mx-auto px-1">
         <motion.div
           initial={{ x: -500, opacity: 0, scale: 0.5 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
@@ -46,7 +46,7 @@ export default function header({}: Props) {
           {/* right header div  */}
           <LightMode
             sx={{ color: "#B1B1B1", fontSize: 30 }}
-            className="text-md hover:text-neutral-100 hover:cursor-pointer"
+            className="text-md flex flex-end hover:text-neutral-100 hover:cursor-pointer"
           />
         </motion.div>
       </div>

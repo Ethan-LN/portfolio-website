@@ -19,7 +19,7 @@ export default function Home() {
       <section id="skills" className="snap-center h-screen">
         <Skills />
       </section>
-      <section id="projects" className="snap-center h-screen">
+      <section id="projects" className="snap-none h-screen">
         <Projects />
       </section>
     </main>

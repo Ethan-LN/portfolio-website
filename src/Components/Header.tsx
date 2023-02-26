@@ -9,6 +9,9 @@ import { motion } from "framer-motion";
 type Props = {};
 
 export default function header({}: Props) {
+  const changeMode = () => {
+    
+  }
   return (
     // header div
     <header className="sticky top-0 z-30">
@@ -46,6 +49,7 @@ export default function header({}: Props) {
           <LightMode
             sx={{ color: "#B1B1B1", fontSize: 30 }}
             className="text-md flex flex-end hover:text-neutral-100 hover:cursor-pointer"
+            onClick={changeMode}
           />
         </motion.div>
       </div>

@@ -43,7 +43,7 @@ export default function Intro({}: Props) {
         </div>
       </div>
       <div className="flex mt-[100px] gap-4">
-        <a href="../#about" className="relative">
+        <a href="#about" className="relative">
           <button className="categoryButton z-20" >About</button>
         </a>
         <a href="#skills" className="relative">

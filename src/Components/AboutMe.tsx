@@ -19,7 +19,7 @@ function AboutMe({}: Props) {
             viewport={{ once: true }}
             src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fbumblebee.png?alt=media&token=163fd0e3-ddfd-493f-b2ab-6fe63c7da56c"
             alt="my gihub photo"
-            className=" w-60 h-60 bg-pink-200 rounded-full object-contain md:mt-40 md:rounded-md"
+            className=" w-60 h-60 bg-pink-200 rounded-full object-contain md:mt-40 md:rounded-md items-center"
           />
         </div>
       </div>

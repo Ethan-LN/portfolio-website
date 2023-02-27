@@ -4,24 +4,30 @@ import BackgroundCircles from "@/Components/BackgroundCircles";
 import AboutMe from "@/Components/AboutMe";
 import Skills from "@/Components/Skills";
 import Projects from "@/Components/Projects";
+import Footer from "@/Components/Footer";
 import Link from "next/link";
+import Contact from "@/Components/Contact";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-slate-900">
       <Header />
-      <section className="snap-start h-screen">
+      <section id="hero" className="snap-start">
         <BackgroundCircles />
       </section>
-      <section id="about" className="snap-center h-screen">
+      <section id="about" className="snap-center">
         <AboutMe />
       </section>
-      <section id="skills" className="snap-center h-screen">
+      <section id="skills" className="snap-center">
         <Skills />
       </section>
-      <section id="projects" className="snap-none h-screen">
+      <section id="projects" className="snap-none">
         <Projects />
       </section>
+      <section>
+        <Contact />
+      </section>
+      <Footer />
     </main>
   );
 }

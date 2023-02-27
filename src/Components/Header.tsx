@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logoWhite from "../Resouce/en-logo-no-bg-white.png";
+import logoWhite from "../Resource/en-logo-no-bg-white.png";
 import Image from "next/image";
 import { LightMode } from "@mui/icons-material";
 import { SocialIcon } from "react-social-icons";
@@ -9,9 +9,7 @@ import { motion } from "framer-motion";
 type Props = {};
 
 export default function header({}: Props) {
-  const changeMode = () => {
-    
-  }
+  const changeMode = () => {};
   return (
     // header div
     <header className="sticky top-0 z-30">
@@ -23,7 +21,12 @@ export default function header({}: Props) {
           className="flex"
         >
           {/* left header div */}
-          <Image src={logoWhite} alt="my logo" className="w-[90px]" />
+          <Image
+            className="w-[90px]"
+            src={logoWhite}
+            // src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fen-logo-no-bg-white.png?alt=media&token=c136b9a9-80ba-457b-8b40-ada14766b316"
+            alt="my logo"
+          />
           <div>
             <SocialIcon
               url="https://github.com/Ethan-LN"

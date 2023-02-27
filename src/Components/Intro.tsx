@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import imageCartoonised from "../Resouce/personal-bg-potrait.jpeg";
+import imageCartoonised from "../Resource/personal-bg-potrait.jpeg";
 import Image from "next/image";
 import { Cursor } from "react-simple-typewriter";
 import { useTypewriter } from "react-simple-typewriter";
@@ -20,7 +20,7 @@ export default function Intro({}: Props) {
   });
 
   return (
-    <div className="flex flex-col justify-center items-center text-center ">
+    <div className="flex flex-col justify-center items-center text-center">
       <Image
         src={imageCartoonised}
         alt="my photo"

@@ -18,7 +18,7 @@ function Skills({}: Props) {
         <h3 className="container absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           skills
         </h3>
-        <div className="grid grid-cols-4 gap-5 text-white items-center mt-[300px] md:mt-[100px]">
+        <div className="grid grid-cols-4 gap-5 text-white items-center mt-[300px]">
           <Skill />
           <Skill />
           <Skill />

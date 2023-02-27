@@ -85,7 +85,7 @@ function Projects({}: Props) {
             </div>
           </div>
           <div className="flex items-center flex-col md:mt-40 max-w-[700px]">
-            <h2 className="text-xl font-bold text-gray-500 mt-20 ">Hilight</h2>
+            <h2 className="text-xl font-bold text-gray-500 mt-20 ">Highlight</h2>
             <p className="text-gray-400 p-10 ">
               This web app is a to-do app equipped with dynamic form validation.
               Additionally, it is using an API that fetches relevant

@@ -23,7 +23,7 @@ function Skills({}: Props) {
         </h3>
         <div className="grid grid-cols-4 gap-5 text-white items-center mt-[200px] mobile:mx-0">
           {ApiSkillSets.map((logo,index) => {
-            return <Skill skillId={index} alt={logo.title} src={logo.src} />;
+            return <Skill key={index} alt={logo.title} src={logo.src} />;
           })}
         </div>
       </motion.div>

@@ -5,10 +5,9 @@ type Props = {
   directionLeft?: boolean;
   alt: string;
   src: string;
-  skillId: number;
 };
 
-function Skill({ directionLeft, alt, src, skillId}: Props) {
+function Skill({ directionLeft, alt, src}: Props) {
   return (
     <div className="group relative flex">
       <motion.img
@@ -20,7 +19,6 @@ function Skill({ directionLeft, alt, src, skillId}: Props) {
         transition={{ duration: 1 }}
         src={src}
         alt={alt}
-        id={skillId.toString()}
         className="w-[60px] h-[60px] p-1 xl:p-2 border border-gray-500 rounded-full object-contain xl:w-24 xl:h-24 "
       ></motion.img>
     </div>

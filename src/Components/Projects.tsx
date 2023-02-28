@@ -14,11 +14,11 @@ function Projects({}: Props) {
       <h3 className="container absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl text-center">
         projects
       </h3>
-      <h1 className="text-white mt-[200[px]]"></h1>
-      {/* <h1 className="text-white">test-80</h1> */}
+      <h1 className="text-white mt-[200px]"></h1>
+      <h1 className="text-white">test-86</h1>
       {ApiProjects.map((project,index) => {
         return (
-          <div className="snap-start">
+          <div key={index} className="snap-start">
             <div className="flex gap-10 flex-col md:flex-row justify-center mt-[100px]">
               <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
                 <h1 className="text-xl font-bold text-gray-500 mt-20 text-center">

@@ -5,9 +5,10 @@ type Props = {
   directionLeft?: boolean;
   alt: string;
   src: string;
+  key: number;
 };
 
-function Skill({ directionLeft, alt, src }: Props) {
+function Skill({ directionLeft, alt, src, key}: Props) {
   return (
     <div className="group relative flex">
       <motion.img

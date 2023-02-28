@@ -26,7 +26,7 @@ function Projects({}: Props) {
                 <div className="flex flex-col gap-10">
                   <img
                     src={project.src}
-                    alt={project.alt}
+                    alt={project.alt + index}
                     className=" relative w-[100%] rounded-md object-contain max-w-md "
                   />
                 </div>

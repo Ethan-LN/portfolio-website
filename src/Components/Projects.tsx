@@ -15,7 +15,7 @@ function Projects({}: Props) {
         projects
       </h3>
       <h1 className="text-white mt-[200px]"></h1>
-      <h1 className="text-white">test-86</h1>
+      {/* <h1 className="text-white">test-86</h1> */}
       {ApiProjects.map((project,index) => {
         return (
           <div key={index} className="snap-start">

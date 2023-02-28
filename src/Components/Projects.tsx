@@ -13,7 +13,7 @@ function Projects({}: Props) {
         projects
       </h3>
       <section className="snap-start">
-        <h1 className="text-white">test-42</h1>
+        <h1 className="text-white">test-61</h1>
         {/* Instagram */}
         <div className="flex gap-10 flex-col md:flex-row justify-center mt-[100px]">
           <div className="flex items-center flex-col gap-10 min-w-fit md:ml-20 md:mt-20">
@@ -24,7 +24,7 @@ function Projects({}: Props) {
               <Image
                 src={imageInsta}
                 alt="instagram-clone"
-                className=" relative w-100 rounded-md object-contain max-w-md"
+                className=" relative w-[100%] rounded-md object-contain max-w-md "
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ function Projects({}: Props) {
               <Image
                 src={imageEcom}
                 alt="instagram-clone"
-                className=" relative w-100 rounded-md object-contain max-w-md"
+                className=" relative w-[100%] rounded-md object-contain max-w-md"
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ function Projects({}: Props) {
               <Image
                 src={imageTodo}
                 alt="instagram-clone"
-                className=" relative w-100 rounded-md object-contain max-w-md"
+                className=" relative w-[100%] rounded-md object-contain max-w-md"
               />
             </div>
           </div>

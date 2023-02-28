@@ -7,11 +7,15 @@ import Projects from "@/Components/Projects";
 import Footer from "@/Components/Footer";
 import Link from "next/link";
 import Contact from "@/Components/Contact";
+// import 'react';
+// import { useState } from "react";
 
 export default function Home() {
+  // const [bgColor, setBgColor] = useState("bg-slate-900")
+  // const switchMode = () => { setBgColor("bg-neutral-200")}
   return (
     <main className="bg-slate-900">
-      <Header />
+      <Header/>
       <section id="hero" className="snap-start">
         <BackgroundCircles />
       </section>

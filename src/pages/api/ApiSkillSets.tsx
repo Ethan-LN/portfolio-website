@@ -1,4 +1,4 @@
-export const SkillSets = [
+export const ApiSkillSets = [
   {
     title: "Javascript",
     src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FJavascript.png?alt=media&token=2ee3b730-89a6-46e5-9641-dca5d942a64c",

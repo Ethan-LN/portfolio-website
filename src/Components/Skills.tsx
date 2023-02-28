@@ -3,7 +3,7 @@ import { MotionConfig } from "framer-motion";
 import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
-import { SkillSets } from "@/pages/api/SkillSets";
+import { ApiSkillSets } from "@/pages/api/ApiSkillSets";
 import { LogoDev } from "@mui/icons-material";
 // import { useState } from "react";
 
@@ -22,7 +22,7 @@ function Skills({}: Props) {
           skills
         </h3>
         <div className="grid grid-cols-4 gap-5 text-white items-center mt-[200px] mx-auto">
-          {SkillSets.map((logo, index) => {
+          {ApiSkillSets.map((logo, index) => {
             return <Skill key={index} alt={logo.title} src={logo.src} />;
           })}
         </div>

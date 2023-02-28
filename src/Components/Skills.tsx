@@ -3,6 +3,9 @@ import { MotionConfig } from "framer-motion";
 import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
+import { ApiSkillSets } from "@/pages/api/ApiSkillSets";
+import { LogoDev } from "@mui/icons-material";
+// import { useState } from "react";
 
 type Props = {};
 
@@ -18,19 +21,10 @@ function Skills({}: Props) {
         <h3 className="container absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           skills
         </h3>
-        <div className="grid grid-cols-4 gap-5 text-white items-center mt-[300px]">
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
+        <div className="grid grid-cols-4 gap-5 text-white items-center mt-[200px] mobile:mx-0">
+          {ApiSkillSets.map((logo,index) => {
+            return <Skill key={index} alt={logo.title} src={logo.src} />;
+          })}
         </div>
       </motion.div>
     </div>

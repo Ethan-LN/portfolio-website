@@ -21,10 +21,11 @@ export default function header({}: Props) {
           className="flex"
         >
           {/* left header div */}
-          <Image
+          <img
             className="w-[90px]"
-            src={logoWhite}
-            // src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fen-logo-no-bg-white.png?alt=media&token=c136b9a9-80ba-457b-8b40-ada14766b316"
+            // src={logoWhite}
+            src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fen-logo-no-bg-white.png?alt=media&token=c136b9a9-80ba-457b-8b40-ada14766b316"
+            width={90}
             alt="my logo"
           />
           <div>

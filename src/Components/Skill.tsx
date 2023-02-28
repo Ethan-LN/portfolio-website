@@ -7,11 +7,14 @@ type Props = {
   src: string;
 };
 
-function Skill({directionLeft,alt,src}: Props) {
+function Skill({ directionLeft, alt, src }: Props) {
   return (
     <div className="group relative flex">
       <motion.img
-        initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
+        initial={{
+          x: directionLeft ? -90 : 90,
+          opacity: 0,
+        }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
         src={src}

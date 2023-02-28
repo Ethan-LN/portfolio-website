@@ -21,7 +21,7 @@ function Skills({}: Props) {
         <h3 className="container absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           skills
         </h3>
-        <div className="grid grid-cols-4 gap-5 text-white items-center mt-[200px] mx-auto">
+        <div className="grid grid-cols-4 gap-5 text-white items-center mt-[200px] mobile:mx-0">
           {ApiSkillSets.map((logo, index) => {
             return <Skill key={index} alt={logo.title} src={logo.src} />;
           })}

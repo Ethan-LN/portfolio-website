@@ -6,7 +6,7 @@ export const ApiProjects = [
     desc: "This is an Instagram clone that utilizes Firebase authentication and storage, enabling users to register, log in, create posts, and leave comments on posts.",
     stack: [
         {
-          url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+          url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FReact.png?alt=media&token=4e01c355-e931-4b40-a7fb-8c215972ea35",
         },
   
         {
@@ -25,7 +25,7 @@ export const ApiProjects = [
     desc: "I created this front-end of an e-commerce website using Tailwind CSS and Material UI icons, and made multiple pages with React Hook and React Router.",
     stack: [
         {
-          url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+          url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FReact.png?alt=media&token=4e01c355-e931-4b40-a7fb-8c215972ea35",
         },
   
         {

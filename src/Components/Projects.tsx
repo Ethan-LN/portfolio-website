@@ -13,8 +13,9 @@ function Projects({}: Props) {
       <h3 className="container absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl text-center">
         projects
       </h3>
-      {/* <h1 className="text-white">test-79</h1> */}
-      {ApiProjects.map((project) => {
+      <h1 className="text-white mt-[200[px]]"></h1>
+      {/* <h1 className="text-white">test-80</h1> */}
+      {ApiProjects.map((project,index) => {
         return (
           <div className="snap-start">
             <div className="flex gap-10 flex-col md:flex-row justify-center mt-[100px]">

@@ -1,7 +1,4 @@
 import React from "react";
-import imageEcom from "../Resource/E-commerce.png";
-import imageInsta from "../Resource/instagram-clone.png";
-import imageTodo from "../Resource/to-do-list.png";
 import Image from "next/image";
 import { ApiProjects } from "@/pages/api/ApiProjects";
 import { idText } from "typescript";

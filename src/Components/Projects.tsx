@@ -4,6 +4,7 @@ import imageInsta from "../Resource/instagram-clone.png";
 import imageTodo from "../Resource/to-do-list.png";
 import Image from "next/image";
 import { ApiProjects } from "@/pages/api/ApiProjects";
+import { idText } from "typescript";
 
 type Props = {};
 
@@ -26,7 +27,8 @@ function Projects({}: Props) {
                 <div className="flex flex-col gap-10">
                   <img
                     src={project.src}
-                    alt={project.alt + index}
+                    alt={project.alt}
+                    id={index.toString()}
                     className=" relative w-[100%] rounded-md object-contain max-w-md "
                   />
                 </div>

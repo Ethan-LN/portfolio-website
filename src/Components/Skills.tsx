@@ -1,11 +1,8 @@
 "use client";
-import { MotionConfig } from "framer-motion";
 import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
 import { ApiSkillSets } from "@/pages/api/ApiSkillSets";
-import { LogoDev } from "@mui/icons-material";
-// import { useState } from "react";
 
 type Props = {};
 

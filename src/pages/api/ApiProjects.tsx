@@ -8,13 +8,23 @@ export const ApiProjects = [
       {
         url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FReact.png?alt=media&token=4e01c355-e931-4b40-a7fb-8c215972ea35",
       },
-
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FFirebase.png?alt=media&token=e282af1b-153c-4bca-9d12-2a568aa5c8d5",
       },
-
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FJavascript.png?alt=media&token=2ee3b730-89a6-46e5-9641-dca5d942a64c",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FCSS3.png?alt=media&token=0aa3e77a-0808-4587-9f91-805b6f03fe38",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FHTML5.png?alt=media&token=8d299262-5e61-422d-b33f-f762f45b7e2b",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FNPM.png?alt=media&token=997fde22-924b-4011-b302-c1e9983182d5",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FMatierial.png?alt=media&token=a8def43f-84fc-46b4-bba8-1a9dd4c7c76e",
       },
     ],
     linkImg: {
@@ -37,13 +47,23 @@ export const ApiProjects = [
       {
         url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FReact.png?alt=media&token=4e01c355-e931-4b40-a7fb-8c215972ea35",
       },
-
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTailwind.png?alt=media&token=abb052cf-8b2a-4af3-aee5-65db49467cd0",
       },
-
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FJavascript.png?alt=media&token=2ee3b730-89a6-46e5-9641-dca5d942a64c",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FCSS3.png?alt=media&token=0aa3e77a-0808-4587-9f91-805b6f03fe38",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FHTML5.png?alt=media&token=8d299262-5e61-422d-b33f-f762f45b7e2b",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FNPM.png?alt=media&token=997fde22-924b-4011-b302-c1e9983182d5",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FMatierial.png?alt=media&token=a8def43f-84fc-46b4-bba8-1a9dd4c7c76e",
       },
     ],
     linkImg: {
@@ -64,15 +84,19 @@ export const ApiProjects = [
     desc: "              This web app is a to-do app equipped with dynamic form validation. Additionally, it is using an API that fetches relevant images based on word tag, which are then used as the hero image for the corresponding task card.",
     stack: [
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FBootstrap.png?alt=media&token=3090d7ae-4719-46c1-b110-21a2fac5eeb7",
       },
-
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTailwind.png?alt=media&token=abb052cf-8b2a-4af3-aee5-65db49467cd0",
       },
-
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FTypeScript.png?alt=media&token=1ef4397f-f8e2-4a0b-bb59-9af8e2351dba",
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FJavascript.png?alt=media&token=2ee3b730-89a6-46e5-9641-dca5d942a64c",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FCSS3.png?alt=media&token=0aa3e77a-0808-4587-9f91-805b6f03fe38",
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FHTML5.png?alt=media&token=8d299262-5e61-422d-b33f-f762f45b7e2b",
       },
     ],
     linkImg: {

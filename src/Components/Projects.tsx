@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import { ApiProjects } from "@/pages/api/ApiProjects";
-import { idText } from "typescript";
 
 type Props = {};
 
@@ -56,6 +54,7 @@ function Projects({}: Props) {
                     return (
                       <img
                         key={index}
+                        alt={index.toString()}
                         src={tool.url}
                         className="w-12 h-12 p-1 border border-gray-500 rounded-full object-contain"
                       />

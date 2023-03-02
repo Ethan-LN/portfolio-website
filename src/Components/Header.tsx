@@ -3,11 +3,39 @@ import React from "react";
 import { LightMode } from "@mui/icons-material";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import { useTheme } from "next-themes";
+import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
-export default function header({}: Props) {
-  const changeMode = () => {};
+export default function Header({}: Props) {
+
+  const { systemTheme, theme, setTheme } = useTheme();
+
+  const changeMode = () => {
+    const currentTheme = theme === "system" ? systemTheme : theme;
+
+    if (currentTheme === "dark") {
+      return(
+      <SunIcon
+        className="text-md flex flex-end mr-7 text-gray-500 hover:text-neutral-100 hover:cursor-pointer"
+        role="button"
+        onClick={() => {
+          setTheme("light");
+        }}
+      />);
+    } else {
+      return(
+      <MoonIcon
+        className="text-md flex flex-end mr-7 text-gray-500 hover:text-gray-800 hover:cursor-pointer"
+        role="button"
+        onClick={() => {
+          setTheme("dark");
+        }}
+      />);
+    }
+  };
+
   return (
     // header div
     <header className="sticky top-0 z-30">
@@ -48,11 +76,7 @@ export default function header({}: Props) {
           className="pt-7"
         >
           {/* right header div  */}
-          <LightMode
-            sx={{ color: "#B1B1B1", fontSize: 30 }}
-            className="text-md flex flex-end mr-8 hover:text-neutral-100 hover:cursor-pointer"
-            onClick={changeMode}
-          />
+          {changeMode()}
         </motion.div>
       </div>
     </header>

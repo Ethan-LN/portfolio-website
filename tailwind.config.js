@@ -18,5 +18,6 @@ module.exports = {
       },
     },
   },
+  darkMode:"lightMode",
   plugins: [require("tailwind-scrollbar")],
 };

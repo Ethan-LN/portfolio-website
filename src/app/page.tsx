@@ -6,6 +6,7 @@ import Skills from "@/Components/Skills";
 import Projects from "@/Components/Projects";
 import Footer from "@/Components/Footer";
 import Contact from "@/Components/Contact";
+// import { ThemeProvider } from "next-themes";
 // import 'react';
 // import { useState } from "react";
 
@@ -13,24 +14,26 @@ export default function Home() {
   // const [bgColor, setBgColor] = useState("bg-slate-900")
   // const switchMode = () => { setBgColor("bg-neutral-200")}
   return (
-    <main className="bg-slate-900">
-      <Header />
-      <section id="hero" className="snap-start">
-        <BackgroundCircles />
-      </section>
-      <section id="about" className="snap-center">
-        <AboutMe />
-      </section>
-      <section id="skills" className="snap-center">
-        <Skills />
-      </section>
-      <section id="projects" className="snap-none">
-        <Projects />
-      </section>
-      <section>
-        <Contact />
-      </section>
-      <Footer />
-    </main>
+    // <ThemeProvider enableSystem={true} attribute="darkMode">
+      <main className="bg-slate-900">
+        <Header/>
+        <section id="hero" className="snap-start">
+          <BackgroundCircles />
+        </section>
+        <section id="about" className="snap-center">
+          <AboutMe />
+        </section>
+        <section id="skills" className="snap-center">
+          <Skills />
+        </section>
+        <section id="projects" className="snap-none">
+          <Projects />
+        </section>
+        <section>
+          <Contact />
+        </section>
+        <Footer />
+      </main>
+    // </ThemeProvider>
   );
 }

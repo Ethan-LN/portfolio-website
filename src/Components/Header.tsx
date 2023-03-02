@@ -52,7 +52,7 @@ export default function header({}: Props) {
           {/* right header div  */}
           <LightMode
             sx={{ color: "#B1B1B1", fontSize: 30 }}
-            className="text-md flex flex-end hover:text-neutral-100 hover:cursor-pointer"
+            className="text-md flex flex-end mr-8 hover:text-neutral-100 hover:cursor-pointer"
             onClick={changeMode}
           />
         </motion.div>

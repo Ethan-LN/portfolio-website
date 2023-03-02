@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
-import imageCartoonised from "../Resource/personal-bg-potrait.jpeg";
-import Image from "next/image";
 import { Cursor } from "react-simple-typewriter";
 import { useTypewriter } from "react-simple-typewriter";
-import Link from "next/link";
 
 type Props = {};
 
@@ -21,8 +18,8 @@ export default function Intro({}: Props) {
 
   return (
     <div className="flex flex-col justify-center items-center text-center">
-      <Image
-        src={imageCartoonised}
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fpersonal-bg-potrait.jpeg?alt=media&token=b6342d50-e7d2-42f9-8dee-7897228c9a57"
         alt="my photo"
         className="w-[120px] h-[120px] bg-pink-100 rounded-full object-cover items-center mt-[280px]"
       />

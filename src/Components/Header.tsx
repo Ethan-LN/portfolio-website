@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import logoWhite from "../Resource/en-logo-no-bg-white.png";
-import Image from "next/image";
 import { LightMode } from "@mui/icons-material";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";

@@ -1,6 +1,6 @@
 export const ApiProjects = [
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Finstagram-clone.png?alt=media&token=da4d7bb3-dfbf-4430-b269-7fb9b8d4038d",
+    src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fwebsites-display%2Finstagram-clone-firebase.png?alt=media&token=c252f534-c657-426a-ad1b-98c917fdf84a",
     alt: "instagram-clone",
     title: "Instagram Clone and Firebase",
     desc: "This is an Instagram clone that utilizes Firebase authentication and storage, enabling users to register, log in, create posts, and leave comments on posts.",
@@ -39,7 +39,7 @@ export const ApiProjects = [
     },
   },
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2FE-commerce.png?alt=media&token=a11aea67-3391-4265-ad68-125102453978",
+    src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fwebsites-display%2Fe-commerce-app.png?alt=media&token=29d87ea4-ab49-4d83-b10c-bdbb5266efe4",
     alt: "e-commerce",
     title: "E-commerce website front-end",
     desc: "I created this front-end of an e-commerce website using Tailwind CSS and Material UI icons, and made multiple pages with React Hook and React Router.",
@@ -78,7 +78,7 @@ export const ApiProjects = [
     },
   },
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fto-do-list.png?alt=media&token=18393e76-05fe-4e73-ad7f-4abb9f777cc2",
+    src: "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fwebsites-display%2Fto-do-app.png?alt=media&token=44b8f806-77f1-4bc4-83c1-175445f4a4f2",
     alt: "Todo-list",
     title: "To-Do List",
     desc: "              This web app is a to-do app equipped with dynamic form validation. Additionally, it is using an API that fetches relevant images based on word tag, which are then used as the hero image for the corresponding task card.",

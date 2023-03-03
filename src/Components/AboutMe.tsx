@@ -24,7 +24,7 @@ function AboutMe({}: Props) {
         </div>
       </div>
       <div className="flex items-center flex-col md:mt-[170px] max-w-[700px]">
-        <p className="text-neutral-400 dark:text-gray-500 p-10 ">
+        <p className="text-gray-500 dark:text-neutral-400 p-10 ">
           I&apos;m a junior web/software developer who&apos;s passionate about
           building engaging and user-friendly web apps and softwares. I&apos;ve
           recently completed my Computational Science Degree and bootcamp
@@ -36,8 +36,7 @@ function AboutMe({}: Props) {
         </p>
         <div className="border border-fuchsia-300 w-[80%]" />
       </div>
-    </div>
-    // </Link>
+    </div> 
   );
 }
 

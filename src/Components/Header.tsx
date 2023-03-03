@@ -1,13 +1,66 @@
 "use client";
 import React from "react";
-import { LightMode } from "@mui/icons-material";
+import { useState, useEffect } from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import { useTheme } from "next-themes";
+import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
-export default function header({}: Props) {
-  const changeMode = () => {};
+export default function Header({}: Props) {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const LogoTheme = () => {
+    if (!mounted) return null;
+    const currentTheme = theme === "system" ? systemTheme : theme;
+    const isDarkMode = currentTheme === "dark";
+
+    return (
+      <img
+        className="w-[90px]"
+        src={
+          isDarkMode
+            ? "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fen-logo-no-bg-white.png?alt=media&token=c136b9a9-80ba-457b-8b40-ada14766b316"
+            : "https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Flight-dark-mode%2Fen-logo-no-bg-black.png?alt=media&token=ff5a0e68-d4dc-4413-9fa6-72ffe5757739"
+        }
+        width={90}
+        alt="my logo"
+      />
+    );
+  };
+
+  const changeMode = () => {
+    if (!mounted) return null;
+    const currentTheme = theme === "system" ? systemTheme : theme;
+    if (currentTheme === "dark") {
+      return (
+        <SunIcon
+          className="text-md w-9 h-9 flex flex-end mr-7 text-gray-500 hover:text-neutral-100 hover:cursor-pointer"
+          role="button"
+          onClick={() => {
+            setTheme("light");
+          }}
+        />
+      );
+    } else {
+      return (
+        <MoonIcon
+          className="text-md w-7 h-7 flex flex-end mr-7 text-gray-500 hover:text-gray-700 hover:cursor-pointer"
+          role="button"
+          onClick={() => {
+            setTheme("dark");
+          }}
+        />
+      );
+    }
+  };
+
   return (
     // header div
     <header className="sticky top-0 z-30">
@@ -19,13 +72,7 @@ export default function header({}: Props) {
           className="flex"
         >
           {/* left header div */}
-          <img
-            className="w-[90px]"
-            // src={logoWhite}
-            src="https://firebasestorage.googleapis.com/v0/b/portfolio-f533e.appspot.com/o/profileImgae%2Fen-logo-no-bg-white.png?alt=media&token=c136b9a9-80ba-457b-8b40-ada14766b316"
-            width={90}
-            alt="my logo"
-          />
+          {LogoTheme()}
           <div>
             <SocialIcon
               url="https://github.com/Ethan-LN"
@@ -48,11 +95,7 @@ export default function header({}: Props) {
           className="pt-7"
         >
           {/* right header div  */}
-          <LightMode
-            sx={{ color: "#B1B1B1", fontSize: 30 }}
-            className="text-md flex flex-end mr-8 hover:text-neutral-100 hover:cursor-pointer"
-            onClick={changeMode}
-          />
+          {changeMode()}
         </motion.div>
       </div>
     </header>

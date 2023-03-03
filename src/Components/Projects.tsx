@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import { ApiProjects } from "@/pages/api/ApiProjects";
-import { idText } from "typescript";
 
 type Props = {};
 
@@ -27,20 +25,20 @@ function Projects({}: Props) {
                     alt={project.alt}
                     className="w-[90%] mx-auto rounded-t-md max-w-md"
                   />
-                  <div className="w-[90%] mx-auto text-center max-w-md  rounded-b-md h-[56px] bg-gray-700">
+                  <div className="w-[90%] mx-auto text-center max-w-md  rounded-b-md h-[56px] bg-gray-500 dark:bg-gray-700">
                     <div className="flex justify-around mt-3">
                       <a href={project.link.github}>
                         <img
                           alt="github link"
                           src={project.linkImg.github}
-                          className="w-28 h-8 rounded-md p-1 bg-gray-700 hover:bg-slate-500 cursor-pointer object-contain"
+                          className="w-28 h-8 rounded-md p-1 bg-gray-500 hover:bg-slate-400 dark:hover:bg-slate-500 dark:bg-gray-700 cursor-pointer object-contain"
                         />
                       </a>
                       <a href={project.link.website}>
                         <img
                           alt="website link"
                           src={project.linkImg.website}
-                          className="w-28 h-8 rounded-md p-1 bg-gray-700 hover:bg-slate-500 cursor-pointer object-contain"
+                          className="w-28 h-8 rounded-md p-1 bg-gray-500 hover:bg-slate-400 dark:hover:bg-slate-500 dark:bg-gray-700 cursor-pointer object-contain"
                         />
                       </a>
                     </div>
@@ -56,6 +54,7 @@ function Projects({}: Props) {
                     return (
                       <img
                         key={index}
+                        alt={index.toString()}
                         src={tool.url}
                         className="w-12 h-12 p-1 border border-gray-500 rounded-full object-contain"
                       />

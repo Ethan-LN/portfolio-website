@@ -15,8 +15,8 @@ export default function Home() {
   // const switchMode = () => { setBgColor("bg-neutral-200")}
   return (
     // <ThemeProvider enableSystem={true} attribute="darkMode">
-      <main className="bg-slate-900">
-        <Header/>
+      <main >
+        <Header />
         <section id="hero" className="snap-start">
           <BackgroundCircles />
         </section>

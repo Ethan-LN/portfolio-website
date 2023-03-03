@@ -3,6 +3,7 @@ import React from "react";
 import { Cursor } from "react-simple-typewriter";
 import { useTypewriter } from "react-simple-typewriter";
 
+
 type Props = {};
 
 export default function Intro({}: Props) {
@@ -29,7 +30,7 @@ export default function Intro({}: Props) {
         </h2>
         <div className="relative mt-[80px]">
           <div className="relative flex items-center justify-center">
-            <h1 className="absolute flex flex-1 text-center text-sky-100 text-xl font-roboto bg-slate-900 border-rounded-md z-10">
+          <h1 className="absolute flex flex-1 text-center text-slate-900 bg-neutral-100 text-xl font-roboto border-rounded-md z-10 dark:bg-slate-900  dark:text-sky-100">
               <span>{text}</span>
               <Cursor cursorColor="#f0abfc" />
             </h1>
